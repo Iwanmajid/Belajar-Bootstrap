@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Navigation Bar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <!-- khusus nav element -->
+        <!-- untuk warna navigasi bisa menambahkan class "navbar-default" atau "navbar-inverse" -->
+        <!-- apabila ingin mengubah posisi fix navigasi bisa menambahkan class "navbar-fixed-top" atau "navbar-fixed-bottom" -->
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">My Website</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Sub Link 1</a></li>
+                        <li><a href="#">Sub Link 2</a></li>
+                        <li><a href="#">Sub Link 3</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span> RLink 1</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-search"></span> RLink 2</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3>Heading</h3>
+        <p>Content.</p>
+    </div>
+
+</body>
+
+</html>
+
+</html>
